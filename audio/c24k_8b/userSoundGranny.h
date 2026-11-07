@@ -1,0 +1,8 @@
+
+#include <stdint.h>
+
+#define USERSOUNDGRANNY_BITS_PER_SAMPLE 8
+#define USERSOUNDGRANNY_SAMPLE_RATE 24000
+#define USERSOUNDGRANNY_SAMPLES 324000
+
+extern const uint8_t userSoundGranny[USERSOUNDGRANNY_SAMPLES];
